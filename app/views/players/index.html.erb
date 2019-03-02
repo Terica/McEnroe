@@ -1,36 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Players</h1>
+<h2>Players</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Usta</th>
-      <th>Description</th>
-      <th>Favorite</th>
-      <th>Inspiration</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
 
-  <tbody>
+  <div>
     <% @players.each do |player| %>
-      <tr>
-        <td><%= player.name %></td>
-        <td><%= player.email %></td>
-        <td><%= player.USTA %></td>
-        <td><%= player.description %></td>
-        <td><%= player.favorite %></td>
-        <td><%= player.inspiration %></td>
-        <td><%= link_to 'Show', player %></td>
-        <td><%= link_to 'Edit', edit_player_path(player) %></td>
-        <td><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+        <p><%= player.name %></p>
+        <p><%= player.email %></p>
+        <p><%= player.USTA %></p>
+        <p><%= player.description %></p>
+        <p><%= player.favorite %></p>
+        <p><%= player.inspiration %></p>
+        <p><%= link_to 'Show', player %></p>
+        <p><%= link_to 'Edit', edit_player_path(player) %></p>
+        <p><%= link_to 'Destroy', player, method: :delete, data: { confirm: 'Are you sure?' } %></p>
     <% end %>
-  </tbody>
-</table>
+  </div>
 
 <br>
 

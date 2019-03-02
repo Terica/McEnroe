@@ -1,0 +1,77 @@
+<%= form_with(model: result, local: true) do |form| %>
+  <% if result.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(result.errors.count, "error") %> prohibited this result from being saved:</h2>
+
+      <ul>
+      <% result.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :set %>
+    <%= form.number_field :set %>
+  </div>
+
+  <div class="field">
+    <%= form.label :forehand %>
+    <%= form.number_field :forehand %>
+  </div>
+
+  <div class="field">
+    <%= form.label :backhand %>
+    <%= form.number_field :backhand %>
+  </div>
+
+  <div class="field">
+    <%= form.label :serve %>
+    <%= form.number_field :serve %>
+  </div>
+
+  <div class="field">
+    <%= form.label :return %>
+    <%= form.number_field :return %>
+  </div>
+
+  <div class="field">
+    <%= form.label :overhead %>
+    <%= form.number_field :overhead %>
+  </div>
+
+  <div class="field">
+    <%= form.label :volley %>
+    <%= form.number_field :volley %>
+  </div>
+
+  <div class="field">
+    <%= form.label :attitude %>
+    <%= form.number_field :attitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :focus %>
+    <%= form.number_field :focus %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rested %>
+    <%= form.number_field :rested %>
+  </div>
+
+  <div class="field">
+    <%= form.label :executed %>
+    <%= form.number_field :executed %>
+  </div>
+
+  <div class="field">
+    <%= form.label :poise %>
+    <%= form.number_field :poise %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  set: 1
+  forehand: 1
+  backhand: 1
+  serve: 1
+  return: 1
+  overhead: 1
+  volley: 1
+  attitude: 1
+  focus: 1
+  rested: 1
+  executed: 1
+  poise: 1
+
+two:
+  set: 1
+  forehand: 1
+  backhand: 1
+  serve: 1
+  return: 1
+  overhead: 1
+  volley: 1
+  attitude: 1
+  focus: 1
+  rested: 1
+  executed: 1
+  poise: 1
