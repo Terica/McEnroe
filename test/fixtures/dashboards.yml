@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  record: MyString
+  string: MyString
+  next: MyString
+  timedate: MyString
+  opponent: MyString
+  string: MyString
+  last_plan: MyString
+  timedate: MyString
+
+two:
+  record: MyString
+  string: MyString
+  next: MyString
+  timedate: MyString
+  opponent: MyString
+  string: MyString
+  last_plan: MyString
+  timedate: MyString

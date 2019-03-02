@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Results</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Set</th>
+      <th>Forehand</th>
+      <th>Backhand</th>
+      <th>Serve</th>
+      <th>Return</th>
+      <th>Overhead</th>
+      <th>Volley</th>
+      <th>Attitude</th>
+      <th>Focus</th>
+      <th>Rested</th>
+      <th>Executed</th>
+      <th>Poise</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @results.each do |result| %>
+      <tr>
+        <td><%= result.set %></td>
+        <td><%= result.forehand %></td>
+        <td><%= result.backhand %></td>
+        <td><%= result.serve %></td>
+        <td><%= result.return %></td>
+        <td><%= result.overhead %></td>
+        <td><%= result.volley %></td>
+        <td><%= result.attitude %></td>
+        <td><%= result.focus %></td>
+        <td><%= result.rested %></td>
+        <td><%= result.executed %></td>
+        <td><%= result.poise %></td>
+        <td><%= link_to 'Show', result %></td>
+        <td><%= link_to 'Edit', edit_result_path(result) %></td>
+        <td><%= link_to 'Destroy', result, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Result', new_result_path %>
