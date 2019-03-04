@@ -5,13 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.4.2
 
-* System dependencies
+* System dependencies Rails
 
 * Configuration
 
-* Database creation
+* Database creation Player model has_a profile; identify another player-instance as an "Opponent" object; the two profiles compile to deliver a game plan for that weekend/evening/dayoff. (has-a Opponent :through: :profile?)
 
 * Database initialization
 
