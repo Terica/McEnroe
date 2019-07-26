@@ -1,0 +1,6 @@
+FROM ruby:2.4.2
+ADD Gemfile* /app/
+WORKDIR /app
+RUN bundle install
+
+

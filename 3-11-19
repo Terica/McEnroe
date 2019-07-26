@@ -1,0 +1,10 @@
+kay today I have updated Homebrew
+
+I am using the HP as a reference machine; I HJAVE to use the mouse. Booo.
+
+I spent an hour with the github community looking at homebrew. 
+
+I have successfully updated n upgraded Homebrew. There were some nifty tricks that opthers had worked out. I chose the trick that had the most positive response and it got me back to fresh witht he packages so I feel awesome. I didn't have to unistall and re-install Homebreww. Brew was dancing wtih Mojave after I applied the command line fix
+
+# sudo install -d -o $(whoami) -g admin /usr/local/Frameworks
+

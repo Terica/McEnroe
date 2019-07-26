@@ -1,0 +1,54 @@
+THIS IS EXAMPLE OF RUBY FORUMS REFERRAL FOR CONTRACT WORK
+
+
+Thank you very much for your interest in our project! I tried to send
+you a private message but that led to an error.
+
+The current version of the app is available at
+https://todo-list-study.herokuapp.com 1 and the Github repository is
+https://github.com/BrowenChen/Cognitive-Tools-for-Self-Mastery/ 2
+
+The requirements for this project are
+
+Set up a data base table, a route, an HTTP request, and a controller
+method such that when a participants clicks Submit after having entered
+text in one of the writing assignments, it is recorded in a data base
+table along with the user id, the task id, and the submission time.
+
+The form for the writing assignments is currently on an external
+website (that I have control over). 
+
+The form checks that responses are
+at least 100 words long and displays a completion code only when this is
+the case and otherwise informs the user to revise their response.
+
+This
+feature should be retained, but you are welcome to integrate the
+external website into the Rails app.
+
+
+Create a controller method and route that will allow the Admin user
+to export the logged responses to the writing assignments to a JSON or
+CSV file.
+
+
+I have received responses from quite a few developers. To help me decide
+whom to contract and write the contract, please send me the following
+information:
+
+A realistic estimate of number of working hours
+A realistic estimate of total cost
+
+A CV and contact information of one or more employers or clients who
+can comment on your work with Ruby on Rails.
+
+When would you be available to start working:
+When would be the expected delivery date?
+
+If we experience a problem with your code later on, will you be
+available to fix it promptly?
+
+If this project goes well, could I contract you again for adding
+additional features at a later time?
+
+Thank you very much!
