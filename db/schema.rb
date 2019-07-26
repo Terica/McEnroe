@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_27_030752) do
+ActiveRecord::Schema.define(version: 2019_03_02_191155) do
+
+  create_table "dashboards", force: :cascade do |t|
+    t.string "record"
+    t.string "string"
+    t.string "next"
+    t.string "timedate"
+    t.string "opponent"
+    t.string "last_plan"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "events", force: :cascade do |t|
     t.string "name"
