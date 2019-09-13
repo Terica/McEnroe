@@ -1,4 +1,4 @@
-def hooga-mooga()
+def hooga_mooga()
 
 end
 
