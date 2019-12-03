@@ -1,5 +1,35 @@
+# Is this a form, or a module? Maybe a _form or other helper.
 
-Not seeing the ball. I use the fenceline(bottom) to orient my head still, while hitting through 3 balls at the earliest effective contact point. 
+
+module PostMatch
+
+require 
+
+# form will be populated with relevent current info as a header
+
+def number_one_reason_i_lost()
+
+end
+
+def number_one_reason_i_won()
+
+end
+
+# How were your Big3 combinations
+  # were they effective
+  # what would you do to improve them/change
+
+# now we ask you to rate your criteria for this match
+# FH
+# BH
+  ..
+
+
+
+
+
+
+  Not seeing the ball. I use the fenceline(bottom) to orient my head still, while hitting through 3 balls at the earliest effective contact point. 
 
 So today is a place to start. 
   I lost conditioning in the tiebreak 
