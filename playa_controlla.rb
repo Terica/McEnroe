@@ -1,8 +1,8 @@
-index - show me the lot of these things
+index - show mr the lot of these things
 - Opponents - Game Plans - Results - Events
 -
 show - look closely at a single object
-- Player LOOKS AT Results/Opponents/Game Plans
+- Player LOOKS AT Results/Opponents/GamePlans
 - /Results - table of opponents +W/L
 - /Opponents [MAYBE OPPONENTS FILL OUT PLAYER PROFILE]
 - --WHAT THEY (presumably) WILL DO - better ~ even ~ worse + Have happen~prevent~attack
