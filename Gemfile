@@ -19,7 +19,7 @@ gem 'mini_racer', platforms: :ruby
 gem 'irbtools', require: 'irbtools/binding'
 # Use Bootstrap for home page styling
 gem 'bootstrap', '~> 4.3.1'
-gem 'bootstrap-sass', '3.3.6'
+gem 'bootstrap-sass', '3.4.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
