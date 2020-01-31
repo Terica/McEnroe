@@ -7,7 +7,7 @@ This README would normally document whatever steps are necessary to get the appl
 
 1) Player registration filling out survey
 
-2) weekly updates to their player-survey
+2) Player fills out initial survey on their current game levels.
 
 3) review game plan/update the opponent survey week before match
 
@@ -38,5 +38,6 @@ THOUGHTS ON STRUCTURE
   The goal is to win matches by making the other guy lose, as much as it looks like art, it is boring and repetitive. Champions can be very boring and self serving. strengthen the steel in their game with the carbon of thoughtful practice of good habits; breaking old habits over time. 
   
   Think about finding ways to get this Opponent to give me the game. Much more effective than stroke honing. Stamina is the real goal; to stay out there until they break.   
+
 
 

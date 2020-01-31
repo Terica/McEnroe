@@ -1,0 +1,34 @@
+/model.rb
+
+:players
+:opponents
+:results
+:game_plans
+
+WHAT AM I DOING? - Add the validates_presence_of to all the models.
+
+*************
+
+We are going to create tables that will associate with other tables:
+
+Player has-many Opponents and GamePlans. 
+I SURVEY myself; I SURVEY my Opponent. (this is instantiation)
+
+WHAT NEEDS TO HAPPEN?
+These need to be associated with each other through the rails console using model tables 
+
+********************
+
+
+I think that game plans belong to opponents to always keep the starting context familiar:
+  Player has_many Opponents
+  —Opponents have past game_plans and new_game_plan.
+
+Player links are 
+) :blank_game_plan
+) :opponent_game_plan  :name, :contact, :survey, :notes/journal/results/todos... :last_event, :won_loss, :status, 
+
+# how much data and logic need to exist in Opponent?
+
+
+
